@@ -25,7 +25,7 @@ class Solution:
             head = head.next
         
         if prev:
-            prev.next= prev.next.next
+            prev.next= slow.next
         
         
             
